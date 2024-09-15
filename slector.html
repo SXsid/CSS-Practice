@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin: 50px 2px;
+            /*font-size: large;*/
+            font-size: 20px;
+            background-color: aqua;
+            display: inline;
+        }
+        
+        .first{
+            background-color: aquamarine;
+        }
+        .second{
+            background-color: red;
+        }
+        div:hover{
+            background-color: green;
+        }
+        div[onclick]{
+            background-color: black;
+        }
+        ol li{
+            font-size: 80px;
+            
+        }
+        li[id]{
+            background-color: red;
+        }
+        header a,div[onabort]{
+            background-color: blueviolet;
+        }
+        header p::first-letter{
+            font-size: 100px;
+        }
+        .sid{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .sid:hover{
+            background-color: #fff;
+        }
+        .sid:last-child{
+            background-color:red;
+            font-size: large;
+        }
+        
+    </style>
+</head>
+<body>
+    <div  id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, incidunt.</div>
+    <div class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fugit, quidem aperiam tenetur optio accusantium provident tempora labore nobis consequatur, fuga incidunt ipsam facere. Quos vero neque eaque vitae nemo!</div>
+    <div id="second" onclick="handler">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error quisquam quae possimus corrupti inventore nulla delectus ut non nobis voluptas aut eum, iure tempora consectetur odit. Eius, explicabo perferendis?</div>
+    <ol>
+        <li>dsafsdj</li>
+        <li>jsdfajsdlfds</li>
+        <li>dsfjdslkjdfsl</li>
+    </ol>
+    <li id="">aman</li>
+
+    <header><a target="_blank" href="https://google.com">dsfjsdklfj000</a><p>dsjfsdj Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet officia accusamus repellat nobis repudiandae consequatur nisi animi dicta quia nulla velit odit fugit id, in quidem asperiores illo eius non.</p></header>\
+    <div onabort="">dsfasdfdsf</div>
+    <div class="sid">
+        <div>fsjdlkfjds</div>
+        <div>sdfsdfds</div>
+        <div>dsfds</div>
+        <div>sdfsdafds</div>
+    </div>
+</body>
+</html>
