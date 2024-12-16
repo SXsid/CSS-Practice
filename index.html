@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS BAISCS</title>
-    <style>
-        h1{
-            color: hsl(287, 78%, 65%);
-            background-color: #414141   ;
-            text-align: center;
-            margin: 30PX 0;
-            padding: 30PX;
-            text-decoration: overline underline;
-            border: solid 4px hsl(26, 72%, 48%);
-        }
-    
-        body{
-            background-color: #030303;
-        }
-        
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acegrade Revamp</title>
+  <style>
+    /* Universal reset */
+   body{
+    background-color: #2e2e2e;
+   }
+   img{
+    mix-blend-mode: ;
+   }
+  </style>
 </head>
 <body>
-    <h1>Loremea assumenda labore?</h1>
-    <!-- body{
-        background-image: url(https://images.pexels.com/photos/18460532/pexels-photo-18460532/free-photo-of-roofs-of-medieval-buildings-in-town.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        animation-delay: 3;
-    } -->
+  <div class="content">
+    <!-- Content inside the gradient background -->
+    <div class="foreground-content">
+        <div class="icon">
+            <img src="data:image/png;base64,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"/>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+            </svg>
+        </div>
+        <h2>Select Degree and Exam</h2>
+        <p>Choose degree and exam to arrange better questions for you</p>
+    </div>
+    </div>
+  </div>
 </body>
 </html>

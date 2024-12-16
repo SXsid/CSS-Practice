@@ -1,0 +1,257 @@
+body{
+    background-color: #2D1E6B;
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 10vh;
+    margin: 4px auto ;
+    align-items: center;
+}
+#mainlogo{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+#mainlogo >i {
+    color: rgb(132, 32, 199);
+
+}
+
+#toplink{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    color:#ffffff
+}
+#toplink >div:hover{
+    color: rgb(39, 21, 74);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#navbar >i{
+    color: rgb(39, 21, 74);
+    height: auto;
+}
+
+.main-header{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    position: relative;
+}
+.main-header .right{
+    width: 80%;
+    height: 100%;
+    mix-blend-mode: color-dodge;
+    z-index: -10;
+
+
+}
+
+.main-header .right img{
+    height: 100vh;
+    width: 100%;
+    /* margin-top: -11vh; */
+}
+.main-header .left{
+    position: absolute;
+    top:100px;
+    left: 10%;
+    width: 40%;
+}
+
+.big-text{
+    font-size: 70px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.btn{
+    /* margin: 10px; */
+    margin-right:40px ;
+    margin-top: 10px;
+    border:solid 2px #0f0a24;
+    padding: 10px 20px;
+    transform: skewx(-20deg);
+    font-weight: 200;
+    color: white;
+    
+    
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+
+.big-differ{
+    color:#ff00f2;
+}
+
+.grad{
+    background:#ff00f2;
+    background: linear-gradient(45deg,#7d63f1 4%,#2c2c94 28%,#f805d0 98%);
+}
+#band{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    margin:auto;
+    background-color: #ffffff40;
+    transform: rotate(-3deg);
+    padding: 15px 0;
+    box-shadow:  0 80px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: blur(4px);
+    font-weight: 900;
+    color: white;
+}
+#band>div>i{
+    color:#ff00f2;
+    
+}
+
+#center-text{
+    margin-top: 70px;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    position: relative;
+    text-align: center;
+    
+    
+}
+.mid{
+    font-size: 40px;
+    color:#ffffff;
+    font-weight: 500;
+   
+}
+.para{
+    color:gray;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    width: 30%;
+    margin: 20px auto;
+}
+#pic-gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.bor{
+    height:250px ;
+    width: 500px;
+    cursor: pointer;
+
+}
+.bor-i {
+    width: 300px;
+    height: 200px;
+    margin-top: 60px;
+    backdrop-filter: blur(4px);
+    cursor: pointer;
+}
+#image-border{
+    
+    display: inline-block;
+    background: url("https://img.freepik.com/premium-vector/online-game-streaming-overlay-vector-live-gamers-modern-offline-gaming-frame-design-with-colorful-buttons-purple-cyan-color-live-stream-screen-overlay-futuristic-gaming-screen-panel-vector_585735-1338.jpg") no-repeat center center; /* Sets the border image */
+    background-size: cover; /* Ensures the border image covers the div */
+   padding: 20px;
+   box-shadow:  0 80px 32px 0 rgba(31,38,135,0.37);
+}
+.base-img{
+    
+    height: 70%;
+    justify-content: flex-start;
+    display: flex;
+    align-items: start;
+    opacity: 1;
+    margin:-3px;
+    /* position: absolute; */
+    z-index: 10;
+    top: -50px;
+    left: -50px;
+    margin-top: -75px;
+    
+    
+}
+#contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin:  50px auto;
+   width: 70%;
+   height: 50%;
+    background-color: rgba(0, 0, 0, 0.292);
+    position: relative;
+    overflow: visible;
+    padding-bottom: 5px;
+    margin-top: 150px;
+    border-radius: 7px;
+    backdrop-filter: blur(4);
+}
+
+.but-2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#card-box{
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+   
+   margin: 80px 160px;
+    
+    flex-wrap: wrap; 
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.292);
+    width: fit-content;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin: 20px 15px;
+
+}
+
+.card img{
+    margin-top: 3px;
+    height: 200px;
+    width: 250px;
+    backdrop-filter: blur(4);
+    border-radius: 20px;
+}
+
+.footer{
+    color: #ffffff;
+    width: auto;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    padding: 0 70px;
+}
+.main-foot{
+    display: flex;
+    gap:70px
+}
+
+.main-foot .in-div>div{
+    margin-top: 10px;
+}
